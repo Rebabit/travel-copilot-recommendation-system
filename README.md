@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a travel recommendation system based on Yelp. Based on the cities and dates selected by the user, personalized attractions, hotels and restaurants are recommended. The models used by the recommendation algorithm are SVD and Light-GCN. And use pywebio to implement web UI and user interaction.
+A travel recommendation system that uses matrix factorization and lightGCN to generate personalized travel plans based on user preferences and historical data from the Yelp Academic dataset. The system employs three different recommendation models for attractions, hotels, and restaurants, respectively, to optimize the travel plan for efficiency and accuracy.The system also features a user-friendly graphical interface developed using PyWebIO. This repository contains the source code and documentation for Travel Copilot. 
 
 ## Display of results
 
