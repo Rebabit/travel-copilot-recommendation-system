@@ -1,0 +1,155 @@
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/yelp2018][0m
+1014834 interactions for training
+71264 interactions for testing
+yelp2018 Sparsity : 0.00026102072105165837
+yelp2018 is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 64,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /home/ltlei/DSLab/LightGCN-PyTorch-master/code/checkpoints/lgn-yelp2018-3-64.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([1.05040178e-05]), 'recall': array([0.00017507]), 'ndcg': array([5.67807516e-05])}
+EPOCH[1/100] loss0.543-|Sample:8.30|
+EPOCH[2/100] loss0.290-|Sample:8.13|
+EPOCH[3/100] loss0.219-|Sample:8.13|
+EPOCH[4/100] loss0.181-|Sample:7.97|
+EPOCH[5/100] loss0.156-|Sample:8.26|
+EPOCH[6/100] loss0.135-|Sample:8.20|
+EPOCH[7/100] loss0.118-|Sample:8.11|
+EPOCH[8/100] loss0.106-|Sample:8.06|
+EPOCH[9/100] loss0.095-|Sample:7.96|
+EPOCH[10/100] loss0.086-|Sample:7.96|
+[0;30;43m[TEST][0m
+{'precision': array([0.0005217]), 'recall': array([0.00796639]), 'ndcg': array([0.00335421])}
+EPOCH[11/100] loss0.078-|Sample:7.80|
+EPOCH[12/100] loss0.071-|Sample:8.13|
+EPOCH[13/100] loss0.065-|Sample:8.05|
+EPOCH[14/100] loss0.060-|Sample:7.88|
+EPOCH[15/100] loss0.056-|Sample:8.06|
+EPOCH[16/100] loss0.051-|Sample:7.93|
+EPOCH[17/100] loss0.048-|Sample:7.91|
+EPOCH[18/100] loss0.045-|Sample:7.87|
+EPOCH[19/100] loss0.042-|Sample:8.09|
+EPOCH[20/100] loss0.040-|Sample:8.04|
+[0;30;43m[TEST][0m
+{'precision': array([0.00047706]), 'recall': array([0.00713784]), 'ndcg': array([0.00303768])}
+EPOCH[21/100] loss0.037-|Sample:7.86|
+EPOCH[22/100] loss0.035-|Sample:8.08|
+EPOCH[23/100] loss0.034-|Sample:7.95|
+EPOCH[24/100] loss0.032-|Sample:7.89|
+EPOCH[25/100] loss0.030-|Sample:8.10|
+EPOCH[26/100] loss0.029-|Sample:8.00|
+EPOCH[27/100] loss0.027-|Sample:7.94|
+EPOCH[28/100] loss0.026-|Sample:8.01|
+EPOCH[29/100] loss0.025-|Sample:7.92|
+EPOCH[30/100] loss0.024-|Sample:7.96|
+[0;30;43m[TEST][0m
+{'precision': array([0.00042716]), 'recall': array([0.00630455]), 'ndcg': array([0.00267482])}
+EPOCH[31/100] loss0.023-|Sample:7.97|
+EPOCH[32/100] loss0.023-|Sample:7.92|
+EPOCH[33/100] loss0.022-|Sample:7.89|
+EPOCH[34/100] loss0.021-|Sample:7.76|
+EPOCH[35/100] loss0.021-|Sample:8.10|
+EPOCH[36/100] loss0.020-|Sample:8.01|
+EPOCH[37/100] loss0.019-|Sample:8.02|
+EPOCH[38/100] loss0.019-|Sample:7.98|
+EPOCH[39/100] loss0.018-|Sample:7.93|
+EPOCH[40/100] loss0.018-|Sample:7.78|
+[0;30;43m[TEST][0m
+{'precision': array([0.00041491]), 'recall': array([0.00623295]), 'ndcg': array([0.00264403])}
+EPOCH[41/100] loss0.018-|Sample:8.05|
+EPOCH[42/100] loss0.017-|Sample:8.00|
+EPOCH[43/100] loss0.017-|Sample:7.91|
+EPOCH[44/100] loss0.016-|Sample:8.04|
+EPOCH[45/100] loss0.016-|Sample:8.01|
+EPOCH[46/100] loss0.015-|Sample:7.95|
+EPOCH[47/100] loss0.015-|Sample:7.81|
+EPOCH[48/100] loss0.015-|Sample:8.10|
+EPOCH[49/100] loss0.014-|Sample:7.99|
+EPOCH[50/100] loss0.015-|Sample:7.92|
+[0;30;43m[TEST][0m
+{'precision': array([0.00042104]), 'recall': array([0.00642142]), 'ndcg': array([0.00271006])}
+EPOCH[51/100] loss0.014-|Sample:8.82|
+EPOCH[52/100] loss0.014-|Sample:8.35|
+EPOCH[53/100] loss0.014-|Sample:9.44|
+EPOCH[54/100] loss0.014-|Sample:8.64|
+EPOCH[55/100] loss0.014-|Sample:8.90|
+EPOCH[56/100] loss0.013-|Sample:8.84|
+EPOCH[57/100] loss0.013-|Sample:8.97|
+EPOCH[58/100] loss0.013-|Sample:8.58|
+EPOCH[59/100] loss0.012-|Sample:8.92|
+EPOCH[60/100] loss0.013-|Sample:8.78|
+[0;30;43m[TEST][0m
+{'precision': array([0.00042629]), 'recall': array([0.00648972]), 'ndcg': array([0.00278736])}
+EPOCH[61/100] loss0.012-|Sample:9.08|
+EPOCH[62/100] loss0.012-|Sample:9.06|
+EPOCH[63/100] loss0.012-|Sample:8.90|
+EPOCH[64/100] loss0.012-|Sample:8.02|
+EPOCH[65/100] loss0.012-|Sample:8.10|
+EPOCH[66/100] loss0.011-|Sample:8.02|
+EPOCH[67/100] loss0.011-|Sample:8.88|
+EPOCH[68/100] loss0.011-|Sample:8.99|
+EPOCH[69/100] loss0.011-|Sample:8.68|
+EPOCH[70/100] loss0.011-|Sample:9.24|
+[0;30;43m[TEST][0m
+{'precision': array([0.00044817]), 'recall': array([0.00691857]), 'ndcg': array([0.00287856])}
+EPOCH[71/100] loss0.011-|Sample:9.20|
+EPOCH[72/100] loss0.011-|Sample:9.01|
+EPOCH[73/100] loss0.011-|Sample:9.09|
+EPOCH[74/100] loss0.011-|Sample:9.36|
+EPOCH[75/100] loss0.010-|Sample:9.32|
+EPOCH[76/100] loss0.010-|Sample:8.95|
+EPOCH[77/100] loss0.010-|Sample:9.51|
+EPOCH[78/100] loss0.010-|Sample:8.31|
+EPOCH[79/100] loss0.010-|Sample:9.34|
+EPOCH[80/100] loss0.010-|Sample:9.31|
+[0;30;43m[TEST][0m
+{'precision': array([0.0004578]), 'recall': array([0.00701837]), 'ndcg': array([0.00298868])}
+EPOCH[81/100] loss0.010-|Sample:9.22|
+EPOCH[82/100] loss0.010-|Sample:9.19|
+EPOCH[83/100] loss0.010-|Sample:8.82|
+EPOCH[84/100] loss0.010-|Sample:9.13|
+EPOCH[85/100] loss0.009-|Sample:8.90|
+EPOCH[86/100] loss0.009-|Sample:7.94|
+EPOCH[87/100] loss0.009-|Sample:8.46|
+EPOCH[88/100] loss0.009-|Sample:8.21|
+EPOCH[89/100] loss0.009-|Sample:8.70|
+EPOCH[90/100] loss0.009-|Sample:9.20|
+[0;30;43m[TEST][0m
+{'precision': array([0.00044992]), 'recall': array([0.00690818]), 'ndcg': array([0.00294884])}
+EPOCH[91/100] loss0.009-|Sample:9.63|
+EPOCH[92/100] loss0.009-|Sample:9.06|
+EPOCH[93/100] loss0.009-|Sample:7.95|
+EPOCH[94/100] loss0.009-|Sample:7.80|
+EPOCH[95/100] loss0.009-|Sample:8.18|
+EPOCH[96/100] loss0.009-|Sample:8.11|
+EPOCH[97/100] loss0.009-|Sample:7.99|
+EPOCH[98/100] loss0.009-|Sample:8.25|
+EPOCH[99/100] loss0.009-|Sample:8.25|
+EPOCH[100/100] loss0.009-|Sample:8.71|
